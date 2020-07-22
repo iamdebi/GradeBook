@@ -36,14 +36,11 @@ namespace GradeBook
         {
         }
 
-        public virtual event GradeAddedDelegate GradedAdded;
+        public abstract event GradeAddedDelegate GradedAdded;
 
         public abstract void AddGrade(double grade);
 
-        public virtual Statistics GetStatistics()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract Statistics GetStatistics();
 
 
     }
