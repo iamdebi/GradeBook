@@ -15,9 +15,21 @@ namespace GradeBook
         static void Main(string[] args)
         {
 
-            var book = new Book("Debbie's grade book");
-
+            IBook book = new DiskBook("Debbie's grade book");
             book.GradedAdded += OnGradeAdded;
+            EnterGrades(book);
+
+            var stats = book.GetStatistics();
+            Console.WriteLine($"The following grades for {book.Name}");
+            // Console.WriteLine($"The folowing grades for {InMemoryBook.CATEGORY}");
+
+            book.ShowStatistics();
+
+
+        }
+
+        private static void EnterGrades(IBook book)
+        {
 
             while (true)
             {
@@ -48,16 +60,6 @@ namespace GradeBook
                     Console.WriteLine("**");
                 }
             }
-
-            var stats = book.GetStatistics();
-            Console.WriteLine($"The following grades for {book.Name}");
-            Console.WriteLine($"The folowing grades for {Book.CATEGORY}");
-
-            book.ShowStatistics();
-
-
         }
-
-
     }
 }

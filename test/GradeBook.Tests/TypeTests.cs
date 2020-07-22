@@ -18,9 +18,6 @@ namespace GradeBook.Test
             log += incrementCount;
             var result = log("Hello");
             Assert.Equal(3, count);
-
-
-
         }
         string incrementCount(string message)
         {
@@ -127,31 +124,31 @@ namespace GradeBook.Test
             Assert.True(Object.ReferenceEquals(book1, book2));
         }
 
-        private Book GetBook(string name)
+        private InMemoryBook GetBook(string name)
         {
-            return new Book(name);
+            return new InMemoryBook(name);
         }
 
-        private void SetName(Book book, string name)
+        private void SetName(InMemoryBook book, string name)
         {
             book.Name = name;
         }
 
-        private void GetBookSetName(ref Book book, string name)
+        private void GetBookSetName(ref InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
             book.Name = name;
         }
 
-        private void GetBookSetNameOut(out Book book, string name)
+        private void GetBookSetNameOut(out InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
             book.Name = name;
         }
 
-        private void GetBookSetName(Book book, string name)
+        private void GetBookSetName(InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
             book.Name = name;
         }
 
