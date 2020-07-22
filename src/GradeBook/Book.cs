@@ -27,6 +27,7 @@ namespace GradeBook
         Statistics GetStatistics();
         string Name { get; }
         event GradeAddedDelegate GradedAdded;
+
     }
 
     public abstract class Book : NamedObject, IBook
@@ -43,7 +44,10 @@ namespace GradeBook
         {
             throw new NotImplementedException();
         }
+
+
     }
+
 
 
 

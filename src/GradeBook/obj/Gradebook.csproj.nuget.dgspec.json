@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/Gradebook.csproj": {}
+    "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {}
   },
   "projects": {
-    "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/Gradebook.csproj": {
+    "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/Gradebook.csproj",
-        "projectName": "Gradebook",
-        "projectPath": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/Gradebook.csproj",
+        "projectUniqueName": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
+        "projectName": "GradeBook",
+        "projectPath": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/GradeBook.csproj",
         "packagesPath": "/Users/debbieurquhart/.nuget/packages/",
         "outputPath": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/obj/",
         "projectStyle": "PackageReference",

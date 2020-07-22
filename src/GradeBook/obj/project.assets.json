@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/Gradebook/Gradebook.csproj",
+      "projectUniqueName": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/Gradebook.csproj",
       "projectName": "Gradebook",
-      "projectPath": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/Gradebook/Gradebook.csproj",
+      "projectPath": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/Gradebook.csproj",
       "packagesPath": "/Users/debbieurquhart/.nuget/packages/",
-      "outputPath": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/Gradebook/obj/",
+      "outputPath": "/Users/debbieurquhart/C#/fundamentals/gradebook/src/GradeBook/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/debbieurquhart/.nuget/NuGet/NuGet.Config"

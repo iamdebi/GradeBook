@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lVLEnmMH8rrEN3Odk7Mz8CaPTr3UQQll8Ss6k71S2LullPkqWM9rF7ZHMgnGFIi6jdbkh13GmnZJbxG6h+K8YQ==",
+  "dgSpecHash": "yUkO2hxVCG+eETtsqZM9QmXZM2eK3Nr+DylSWnJJF8Hh7mwGH/weexnCAlrjnqE3RMJ8rtOZ42XDKF2tYEY+gw==",
   "success": true,
   "projectFilePath": "/Users/debbieurquhart/C#/fundamentals/gradebook/test/GradeBook.Tests/GradeBook.Test.csproj",
   "expectedPackageFiles": [

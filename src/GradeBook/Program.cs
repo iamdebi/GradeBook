@@ -23,7 +23,7 @@ namespace GradeBook
             Console.WriteLine($"The following grades for {book.Name}");
             // Console.WriteLine($"The folowing grades for {InMemoryBook.CATEGORY}");
 
-            book.ShowStatistics();
+            // book.ShowStatistics();
 
 
         }
